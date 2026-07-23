@@ -1,4 +1,4 @@
-# this code is from
+# this code is from flask app
 from flask import Flask, render_template
 app = Flask(__name__)
 
