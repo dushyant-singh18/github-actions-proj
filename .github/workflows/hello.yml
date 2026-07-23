@@ -12,9 +12,9 @@ jobs:
   # 1st job (give indentation)
   say-hello:
     # crate an Ephermal container with ubuntu running
-    run-on: ubuntu-latast
+    runs-on: ubuntu-latast
     steps:
-      - name: say hello to everyone
+    - name: say hello to everyone
       run: echo "Hello Dosto"
       
 
